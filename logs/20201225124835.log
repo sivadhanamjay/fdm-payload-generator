@@ -1,0 +1,9 @@
+
+Payload JSON Generator
+------------------
+Type:		cfe
+Output Path:	./output/
+Log File:	./logs/20201225124835.log
+
+passing input path: /Users/iva/Desktop/varun/fdm-payload-generator/test/input/sample_exchange_container_cfe.json, mapping file dict: {'cfe': {'$schema': 'CONST.http://json-schema.org/draft-07/schema#', 'type': 'CONST.object', 'resourceID': 'APPL.appl_resrce.appl_da_cntn_resrce.da_cntn_resrce_id', 'resourceVersion': 'APPL.appl_resrce.appl_da_cntn_resrce.da_cntn_vsn_id', 'resourceType': 'CONST.datactr', 'daCntnBusNm': 'ARRAY.da_cntn_resrce.da_cntn_bus_nm$da_cntn_resrce_id$[appl_resrce|appl_da_cntn_resrce|da_cntn_resrce_id]', 'daCntnTypeCd': 'ARRAY.da_cntn_resrce.da_cntn_type_cd$da_cntn_resrce_id$[appl_resrce|appl_da_cntn_resrce|da_cntn_resrce_id]', 'releaseVersionID': 'APPL.rls_vsn.rls_vsn_id', 'name': 'ARRAY.da_cntn_resrce.da_cntn_tech_nm$da_cntn_resrce_id$[appl_resrce|appl_da_cntn_resrce|da_cntn_resrce_id]', 'documentType': 'CONST.reg', 'applSrceSysNm': 'CONST.AXP CLP', 'sourceCARID': 'APPL.appl_resrce.appl_srce_sys_id', 'targetCARID': 'CONST.500000979', 'activeStartDate': 'APPL.rls_vsn.act_strt_ts', 'activeEndDate': 'APPL.rls_vsn.act_end_ts', 'tags': 'CONST.[pii, cde]', 'properties': ['#properties_obj', 'NA']}, 'properties_obj': ['$body'], 'body': {'bdy': ['$attributes_array', 'ARRAY.da_cntn_resrce.attr_resrce$da_cntn_resrce_id$[appl_resrce|appl_da_cntn_resrce|da_cntn_resrce_id]']}, 'attributes_array': {'key': 'attr_tech_nm', 'resourceID': 'attr_resrce_id', 'resourceVersion': 'attr_vsn_id', 'resourceType': 'CONST.attr', 'name': 'attr_abrv_bus_nm', 'type': 'attr_da_type_cd', 'tags': 'CONST.[]', 'tags_v1': 'pii_info_in', 'tags_v2': 'cde_in', 'description': 'attr_def'}}, logger obj to the generic method
+applying custom reformat: reformat_cfe_file 

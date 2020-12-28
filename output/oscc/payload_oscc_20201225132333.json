@@ -1,0 +1,830 @@
+{
+    "resourceID": "67459640-5ee3-4489-9ce8-33a042b22321",
+    "resourceVersion": "20201008204219483885",
+    "resourceType": "datacntr",
+    "name": "SharedKafka2_500000979_ONESTREAM-OSCC-PGM-ATTR",
+    "documentType": "reg",
+    "applBusNm": "One Stream",
+    "daCntnBusNm": "OSCC SERVICING CREDIT PAYMENT PROGRAM",
+    "daCntnTypeCd": "MSG",
+    "sourceCARID": "500000138",
+    "targetCARID": "500000979",
+    "activeStartDate": "2020-10-08 19:13:00",
+    "activeEndDate": "9999-12-31 23:59:59.999999",
+    "tags": [
+        "pii",
+        "cde"
+    ],
+    "records": {
+        "bdy": {
+            "timestamp": {
+                "resourceID": "26fd8966-9154-4fa3-9985-5ce3cfed2a88",
+                "resourceVersion": "20201008204225593874",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "type": {
+                "resourceID": "3fa92648-a52b-4905-9401-1a14cf403a1a",
+                "resourceVersion": "20201008204225667691",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "datacontenttype": {
+                "resourceID": "6854be7d-a41c-498b-98d5-009a9a69436a",
+                "resourceVersion": "20201008204225211139",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "source": {
+                "resourceID": "7d78a496-dfc1-4112-9c4d-23950740f7d8",
+                "resourceVersion": "20201008204225362413",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "specversion": {
+                "resourceID": "c13dfb2e-53a8-4dad-a607-27cccb708270",
+                "resourceVersion": "20201008204225436096",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "subject": {
+                "resourceID": "e7799ad8-0d8a-42cb-b96d-9a9f416d95d8",
+                "resourceVersion": "20201008204225522014",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "id": {
+                "resourceID": "eb424e48-0893-435c-ac07-fc9d0b3c4855",
+                "resourceVersion": "20201008204225285478",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "version": {
+                "resourceID": "efa63f97-355e-4450-9b74-dd0372a26fa3",
+                "resourceVersion": "20201008204225746352",
+                "resourceType": "attr",
+                "name": "",
+                "type": "",
+                "format": "",
+                "description": "",
+                "tags": []
+            },
+            "data": {
+                "resourceID": "4c216322-5292-442e-a1bb-124e3fcb3ebf",
+                "resourceVersion": "20201008204219350550",
+                "resourceType": "datactr",
+                "type": "object",
+                "properties": {
+                    "callId": {
+                        "resourceID": "2a1a482e-cbfc-4348-ba42-8511b897da9a",
+                        "resourceVersion": "20201008204219350550",
+                        "resourceType": "",
+                        "name": "",
+                        "type": "",
+                        "format": "",
+                        "tags": [],
+                        "description": ""
+                    },
+                    "correlationId": {
+                        "resourceID": "3a96a257-18fd-4c56-be90-367b7f2acc1d",
+                        "resourceVersion": "20201008204219350550",
+                        "resourceType": "",
+                        "name": "",
+                        "type": "",
+                        "format": "",
+                        "tags": [],
+                        "description": ""
+                    },
+                    "platform": {
+                        "resourceID": "e7d3d93f-e6bd-47fe-97b5-561f0c9d7e10",
+                        "resourceVersion": "20201008204219731263",
+                        "resourceType": "datactr",
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "resourceID": "1eac7c04-c0d4-479c-9f7e-17da6056f9ad",
+                                "resourceVersion": "20201008204219731263",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "id": {
+                                "resourceID": "47ae9318-4086-4940-b4da-6d71f5d6a697",
+                                "resourceVersion": "20201008204219731263",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            }
+                        }
+                    },
+                    "application": {
+                        "resourceID": "831826e5-dfe5-48af-8544-2b98f95cc725",
+                        "resourceVersion": "20201008204219543226",
+                        "resourceType": "datactr",
+                        "type": "object",
+                        "properties": {
+                            "applicationReferenceId": {
+                                "resourceID": "55fef683-269a-49c9-8984-1057aa513eaa",
+                                "resourceVersion": "20201008204219543226",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "name": {
+                                "resourceID": "c680ea05-661e-4cc7-b828-28a620f14bde",
+                                "resourceVersion": "20201008204219543226",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "componentId": {
+                                "resourceID": "fc7eb27e-18a2-4b31-ab82-cdd3ac8e4a58",
+                                "resourceVersion": "20201008204219543226",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            }
+                        }
+                    },
+                    "journey": {
+                        "resourceID": "4c0793ce-f622-413e-a680-51932de459e3",
+                        "resourceVersion": "20201008204219099321",
+                        "resourceType": "datactr",
+                        "type": "object",
+                        "properties": {
+                            "channel": {
+                                "resourceID": "de287400-1868-416e-b699-8ecefcd36a1a",
+                                "resourceVersion": "20201008204219222306",
+                                "resourceType": "datactr",
+                                "type": "object",
+                                "properties": {
+                                    "inbound": {
+                                        "resourceID": "b99b3a02-ba0a-46b7-a8dd-d088e71b8566",
+                                        "resourceVersion": "20201008204219222306",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "fulfiller": {
+                        "resourceID": "4f194dc9-9f79-46d4-b9e2-1897e567a3f1",
+                        "resourceVersion": "20201008204219667966",
+                        "resourceType": "datactr",
+                        "type": "object",
+                        "properties": {
+                            "category": {
+                                "resourceID": "5a9431fc-90ff-4e97-8df6-1372a770a8e2",
+                                "resourceVersion": "20201008204219667966",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "id": {
+                                "resourceID": "71dc3876-11fb-43f9-94ad-cb6215f60b13",
+                                "resourceVersion": "20201008204219667966",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "entity": {
+                                "resourceID": "7294cd21-f290-41e1-87b8-d16ebfce323e",
+                                "resourceVersion": "20201008204219667966",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            }
+                        }
+                    },
+                    "customerInfo": {
+                        "resourceID": "5d6d7c74-5ffb-4db3-b616-e834e23c55a8",
+                        "resourceVersion": "20201008204219035801",
+                        "resourceType": "datactr",
+                        "type": "object",
+                        "properties": {
+                            "customerId": {
+                                "resourceID": "26a91685-88ce-4985-9661-30fca743e0d2",
+                                "resourceVersion": "20201008204219035801",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "marketCode": {
+                                "resourceID": "6ed3687f-bf03-456b-acf2-81afe9d22752",
+                                "resourceVersion": "20201008204219035801",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "countryCode": {
+                                "resourceID": "d8b6ca41-1bb5-481a-8e05-d446327f88f2",
+                                "resourceVersion": "20201008204219035801",
+                                "resourceType": "",
+                                "name": "",
+                                "type": "",
+                                "format": "",
+                                "tags": [],
+                                "description": ""
+                            },
+                            "accountDetails": {
+                                "resourceID": "5a5e1c98-1c3a-46d4-88ff-6cf9bd31998c",
+                                "resourceVersion": "20201008204219286433",
+                                "resourceType": "datactr",
+                                "type": "object",
+                                "properties": {
+                                    "accountToken": {
+                                        "resourceID": "a50faefc-5dab-4f60-8ff0-2ce77776d01e",
+                                        "resourceVersion": "20201008204219286433",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "accountCategory": {
+                                        "resourceID": "b60b5c8c-8d90-4440-b19a-623241a33233",
+                                        "resourceVersion": "20201008204219286433",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "servicingDetail": {
+                        "resourceID": "a4af663e-94db-4c2a-934e-34113e549f62",
+                        "resourceVersion": "20201008204219604871",
+                        "resourceType": "datactr",
+                        "type": "object",
+                        "properties": {
+                            "creditDetail": {
+                                "resourceID": "d5ac7025-4565-4b91-b442-86bef3ed85d9",
+                                "resourceVersion": "20201008204219419291",
+                                "resourceType": "datactr",
+                                "type": "object",
+                                "properties": {
+                                    "programStatusReasonDescription": {
+                                        "resourceID": "3d6ce36f-e03d-4c03-b581-cbb040539964",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programEndDate": {
+                                        "resourceID": "45a285ec-a98c-429d-a145-e4d7ae15548a",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programStartDate": {
+                                        "resourceID": "671cb844-cc3b-435e-abee-9ce163b1f557",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "currencyCode": {
+                                        "resourceID": "8f129116-8eeb-4c74-bfca-b3b08b1d8a20",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programLastStatusUpdateDate": {
+                                        "resourceID": "994cfa14-e21f-4847-835e-fd1dcca2f928",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programStatusCode": {
+                                        "resourceID": "a5ff89f6-54d5-4da7-a836-19d84d7dc71e",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programStatusCodeDescription": {
+                                        "resourceID": "a64afaf4-95f6-4b6d-b1b5-4c6ccee88bc3",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "offerName": {
+                                        "resourceID": "cad9ddeb-3786-4805-934d-59353cb91333",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programId": {
+                                        "resourceID": "cfaa5370-bfea-4cac-a2e3-5d0216994684",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programName": {
+                                        "resourceID": "e0e49b28-e840-4c65-abf2-4c7c8b00b302",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programTrackingId": {
+                                        "resourceID": "eea59b1c-d621-4409-bdd9-06db412bdf70",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programStatusReasonCode": {
+                                        "resourceID": "f6acd366-8c48-48df-bf90-39efd19fc927",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "planTypeCode": {
+                                        "resourceID": "f8a3d0d3-07c4-4511-94e3-8ef525342547",
+                                        "resourceVersion": "20201008204219419291",
+                                        "resourceType": "",
+                                        "name": "",
+                                        "type": "",
+                                        "format": "",
+                                        "tags": [],
+                                        "description": ""
+                                    },
+                                    "programDetails": {
+                                        "resourceID": "f2817e36-2ca8-4930-91ed-05cc5a635402",
+                                        "resourceVersion": "20201008204219160799",
+                                        "resourceType": "datactr",
+                                        "type": "object",
+                                        "properties": {
+                                            "initialPaymentAmount": {
+                                                "resourceID": "069f7a9c-5ba9-420d-b4ee-504004a0ae7a",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "delinquencyFeesAmount": {
+                                                "resourceID": "081408e2-28f4-4d79-ab24-d0c57a63be1c",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "authorizedOfficerFirstName": {
+                                                "resourceID": "098d0759-e160-434b-aea1-3c8a0e50aa5d",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "liabilityCode": {
+                                                "resourceID": "0e21efa3-43df-4184-bf61-cf80e7f1c8a7",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "programAdministratorMiddleName": {
+                                                "resourceID": "1337906a-05f0-440c-9cb4-5807b1f701e1",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "authorizedOfficerLastName": {
+                                                "resourceID": "22b337d4-6d4e-48de-85c5-959600b467d1",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "contractSentDate": {
+                                                "resourceID": "27d32206-3001-49dc-8271-1733b861d2f2",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "programDurationUnit": {
+                                                "resourceID": "3734d434-206c-496b-a180-97e2b0832ffc",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "programAdministratorLastName": {
+                                                "resourceID": "39b5c022-2eb4-40ce-9636-347fee9cbd97",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "delinquencyFeeWaiverPercentageRate": {
+                                                "resourceID": "3b127fc2-813e-4932-8552-a29e489b4495",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "initialPaymentDueDate": {
+                                                "resourceID": "3e5425d0-cd3f-44ec-9fb3-9ad431744586",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "maximumNumberOfPayments": {
+                                                "resourceID": "3f5d8230-735d-4f8d-81d8-2666e6970be7",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "envelopeId": {
+                                                "resourceID": "3fa34005-bf3f-470c-a98d-b0c05a7df730",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "paymentFrequency": {
+                                                "resourceID": "466c701e-2c4e-42b7-89e7-41a0d8defaaf",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "marketTypeDescription": {
+                                                "resourceID": "46d7836d-f12e-4c1e-8799-06f3aeb4f147",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "contractSignedDate": {
+                                                "resourceID": "588eddba-f1e5-42d4-8e66-533d409599c4",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "loanAccountId": {
+                                                "resourceID": "5e0bdfb7-7245-40b6-bcfc-fcdca2baae23",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "nationalIdTypeCode": {
+                                                "resourceID": "614d5428-b51a-4834-8552-4df4bf2546f1",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "delinquencyFeeWaiverAmount": {
+                                                "resourceID": "621035b4-718b-492b-8d2e-98e71dbc379f",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "feeAmount": {
+                                                "resourceID": "71ef2562-c480-4625-a0b9-3f1dbe7ddd92",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "recurringPaymentAmount": {
+                                                "resourceID": "7334af36-2b78-48eb-9ac1-3c3da290bc67",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "daysforInitialPaymentNumber": {
+                                                "resourceID": "7ab12aac-02ba-4065-9f9b-4d04c370b296",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "loanAccountToken": {
+                                                "resourceID": "7bb648f0-c59e-464c-91d5-37dedadef7d8",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "companyStructureCode": {
+                                                "resourceID": "802d9fac-f729-4940-8442-50de31867633",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "nationalId": {
+                                                "resourceID": "95ee7d7c-0be6-4427-80a9-f0cb86b66b4b",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "programAdministratorFirstName": {
+                                                "resourceID": "b520bd11-e4ac-4ae0-8a7d-63724bea8480",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "returnPaymentFeeAmount": {
+                                                "resourceID": "c380df89-7d76-4737-b2ee-da2a16016a18",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "corporateId": {
+                                                "resourceID": "c41a2c1d-7490-450e-8b8c-f32d8404962d",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "loanRate": {
+                                                "resourceID": "c909fd18-7dbb-4e60-9a88-8f9f75e478db",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "paymentType": {
+                                                "resourceID": "d6983ceb-3555-4647-96a8-e625e352fc9c",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "lateFeeRate": {
+                                                "resourceID": "dc6cb972-d2b5-4b34-aa24-85ea1e810aa6",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "authorizedOfficerMiddleName": {
+                                                "resourceID": "e16f5a8f-b8ff-41f8-a395-ade28a25c7fa",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "totalBalance": {
+                                                "resourceID": "f84762ee-7a7b-4297-b6b0-3f58f30d1868",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "loanId": {
+                                                "resourceID": "f9058318-6d5c-4564-8ba1-b63b6c121c22",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            },
+                                            "programDurationNumber": {
+                                                "resourceID": "ff0f1361-21df-4aa6-85eb-423e4ff0eb50",
+                                                "resourceVersion": "20201008204219160799",
+                                                "resourceType": "",
+                                                "name": "",
+                                                "type": "",
+                                                "format": "",
+                                                "tags": [],
+                                                "description": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "Triumph": {
+        "resourceID": "ARRAY.da_cntn_resrce.da_cntn_resrce_id$da_cntn_type_cd$INGST_FLE",
+        "resourceType": "CONST!RESOURCE_TYPE",
+        "name": "ARRAY.da_cntn_resrce.da_cntn_tech_nm$da_cntn_type_cd$INGST_FLE",
+        "nameFormat": "ARRAY.da_cntn_resrce.nm_regex_pat_nm$da_cntn_type_cd$INGST_FLE",
+        "sourceCARID": "APPL.appl_resrce.appl_srce_sys_id",
+        "targetCARID": "null",
+        "version": "ARRAY.da_cntn_resrce.da_cntn_vsn_id$da_cntn_type_cd$INGST_FLE",
+        "activeStartDate": "APPL.appl_resrce.act_strt_ts",
+        "activeEndDate": "APPL.appl_resrce.act_end_ts",
+        "records": ["#records_array", "NA"]
+    },
+
+    "records_array": [
+        "$header_obj",
+        "$details_obj",
+        "$trailer_obj"
+    ],
+
+    "header_obj": {
+        "resourceID": "ARRAY.da_cntn_resrce.da_cntn_resrce_id$da_cntn_bus_nm$Triumph Transaction Header",
+        "type": "ARRAY.da_cntn_resrce.da_cntn_type_cd$da_cntn_bus_nm$Triumph Transaction Header", 
+        "name": "ARRAY.da_cntn_resrce.da_cntn_tech_nm$da_cntn_bus_nm$Triumph Transaction Header",
+        "typeIdentifier": "null",  
+        "typeIdentifierStartPos": "CONST.1",
+        "length": "CONST.1",
+        "fields": ["$fields_array", "ARRAY.da_cntn_resrce.attr_resrce$da_cntn_bus_nm$Triumph Transaction Header"]
+    },
+
+    "fields_array": {
+        "resourceID": "attr_resrce_id",
+        "start": "CONST.1",
+        "sorName": "attr_tech_nm",
+        "name": "null",
+        "varType": "attr_da_type_cd",
+        "length": "attr_lgth_no",
+        "format": "null" 
+    },
+
+    "details_obj": {
+        "resourceID": "ARRAY.da_cntn_resrce.da_cntn_resrce_id$da_cntn_bus_nm$Triumph Transaction Detail",
+        "type": "ARRAY.da_cntn_resrce.da_cntn_type_cd$da_cntn_bus_nm$Triumph Transaction Detail",
+        "name": "ARRAY.da_cntn_resrce.da_cntn_tech_nm$da_cntn_bus_nm$Triumph Transaction Detail",
+        "typeIdentifier": "null",
+        "typeIdentifierStartPos": "CONST.1",
+        "length": "CONST.1",
+        "fields": ["$fields_array", "ARRAY.da_cntn_resrce.attr_resrce$da_cntn_bus_nm$Triumph Transaction Detail"]
+    },
+
+    "trailer_obj": {
+        "resourceID": "ARRAY.da_cntn_resrce.da_cntn_resrce_id$da_cntn_bus_nm$Triumph Transaction Trailer",
+        "type": "ARRAY.da_cntn_resrce.da_cntn_type_cd$da_cntn_bus_nm$Triumph Transaction Trailer",
+        "name": "ARRAY.da_cntn_resrce.da_cntn_tech_nm$da_cntn_bus_nm$Triumph Transaction Trailer",
+        "typeIdentifier": "null",
+        "typeIdentifierStartPos": "CONST.1",
+        "length": "CONST.1",
+        "fields": ["$fields_array", "ARRAY.da_cntn_resrce.attr_resrce$da_cntn_bus_nm$Triumph Transaction Trailer"]
+
+    }
+}
